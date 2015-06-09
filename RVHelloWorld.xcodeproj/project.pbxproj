@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78FB0CEF1B27323C007690BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB0CEE1B27323C007690BF /* AppDelegate.m */; };
+		78FB0CF11B27323C007690BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB0CF01B27323C007690BF /* main.m */; };
+		78FB0CF31B27323C007690BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FB0CF21B27323C007690BF /* Images.xcassets */; };
+		78FB0CF61B27323C007690BF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78FB0CF41B27323C007690BF /* MainMenu.xib */; };
+		78FB0D021B27323C007690BF /* RVHelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB0D011B27323C007690BF /* RVHelloWorldTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78FB0CFC1B27323C007690BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78FB0CE01B27323C007690BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78FB0CE71B27323C007690BF;
+			remoteInfo = RVHelloWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78FB0CE81B27323C007690BF /* RVHelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RVHelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FB0CEC1B27323C007690BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78FB0CED1B27323C007690BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78FB0CEE1B27323C007690BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78FB0CF01B27323C007690BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78FB0CF21B27323C007690BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78FB0CF51B27323C007690BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		78FB0CFB1B27323C007690BF /* RVHelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RVHelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FB0D001B27323C007690BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78FB0D011B27323C007690BF /* RVHelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RVHelloWorldTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78FB0CE51B27323C007690BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FB0CF81B27323C007690BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78FB0CDF1B27323C007690BF = {
+			isa = PBXGroup;
+			children = (
+				78FB0CEA1B27323C007690BF /* RVHelloWorld */,
+				78FB0CFE1B27323C007690BF /* RVHelloWorldTests */,
+				78FB0CE91B27323C007690BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78FB0CE91B27323C007690BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78FB0CE81B27323C007690BF /* RVHelloWorld.app */,
+				78FB0CFB1B27323C007690BF /* RVHelloWorldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78FB0CEA1B27323C007690BF /* RVHelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				78FB0CED1B27323C007690BF /* AppDelegate.h */,
+				78FB0CEE1B27323C007690BF /* AppDelegate.m */,
+				78FB0CF21B27323C007690BF /* Images.xcassets */,
+				78FB0CF41B27323C007690BF /* MainMenu.xib */,
+				78FB0CEB1B27323C007690BF /* Supporting Files */,
+			);
+			path = RVHelloWorld;
+			sourceTree = "<group>";
+		};
+		78FB0CEB1B27323C007690BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78FB0CEC1B27323C007690BF /* Info.plist */,
+				78FB0CF01B27323C007690BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78FB0CFE1B27323C007690BF /* RVHelloWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				78FB0D011B27323C007690BF /* RVHelloWorldTests.m */,
+				78FB0CFF1B27323C007690BF /* Supporting Files */,
+			);
+			path = RVHelloWorldTests;
+			sourceTree = "<group>";
+		};
+		78FB0CFF1B27323C007690BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78FB0D001B27323C007690BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78FB0CE71B27323C007690BF /* RVHelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78FB0D051B27323C007690BF /* Build configuration list for PBXNativeTarget "RVHelloWorld" */;
+			buildPhases = (
+				78FB0CE41B27323C007690BF /* Sources */,
+				78FB0CE51B27323C007690BF /* Frameworks */,
+				78FB0CE61B27323C007690BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RVHelloWorld;
+			productName = RVHelloWorld;
+			productReference = 78FB0CE81B27323C007690BF /* RVHelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78FB0CFA1B27323C007690BF /* RVHelloWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78FB0D081B27323C007690BF /* Build configuration list for PBXNativeTarget "RVHelloWorldTests" */;
+			buildPhases = (
+				78FB0CF71B27323C007690BF /* Sources */,
+				78FB0CF81B27323C007690BF /* Frameworks */,
+				78FB0CF91B27323C007690BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78FB0CFD1B27323C007690BF /* PBXTargetDependency */,
+			);
+			name = RVHelloWorldTests;
+			productName = RVHelloWorldTests;
+			productReference = 78FB0CFB1B27323C007690BF /* RVHelloWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78FB0CE01B27323C007690BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Renewed Vision";
+				TargetAttributes = {
+					78FB0CE71B27323C007690BF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					78FB0CFA1B27323C007690BF = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 78FB0CE71B27323C007690BF;
+					};
+				};
+			};
+			buildConfigurationList = 78FB0CE31B27323C007690BF /* Build configuration list for PBXProject "RVHelloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78FB0CDF1B27323C007690BF;
+			productRefGroup = 78FB0CE91B27323C007690BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78FB0CE71B27323C007690BF /* RVHelloWorld */,
+				78FB0CFA1B27323C007690BF /* RVHelloWorldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78FB0CE61B27323C007690BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FB0CF31B27323C007690BF /* Images.xcassets in Resources */,
+				78FB0CF61B27323C007690BF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FB0CF91B27323C007690BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78FB0CE41B27323C007690BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FB0CF11B27323C007690BF /* main.m in Sources */,
+				78FB0CEF1B27323C007690BF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FB0CF71B27323C007690BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FB0D021B27323C007690BF /* RVHelloWorldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78FB0CFD1B27323C007690BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78FB0CE71B27323C007690BF /* RVHelloWorld */;
+			targetProxy = 78FB0CFC1B27323C007690BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78FB0CF41B27323C007690BF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78FB0CF51B27323C007690BF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78FB0D031B27323C007690BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		78FB0D041B27323C007690BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		78FB0D061B27323C007690BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RVHelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78FB0D071B27323C007690BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RVHelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		78FB0D091B27323C007690BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RVHelloWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RVHelloWorld.app/Contents/MacOS/RVHelloWorld";
+			};
+			name = Debug;
+		};
+		78FB0D0A1B27323C007690BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RVHelloWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RVHelloWorld.app/Contents/MacOS/RVHelloWorld";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78FB0CE31B27323C007690BF /* Build configuration list for PBXProject "RVHelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FB0D031B27323C007690BF /* Debug */,
+				78FB0D041B27323C007690BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78FB0D051B27323C007690BF /* Build configuration list for PBXNativeTarget "RVHelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FB0D061B27323C007690BF /* Debug */,
+				78FB0D071B27323C007690BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78FB0D081B27323C007690BF /* Build configuration list for PBXNativeTarget "RVHelloWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FB0D091B27323C007690BF /* Debug */,
+				78FB0D0A1B27323C007690BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78FB0CE01B27323C007690BF /* Project object */;
+}
