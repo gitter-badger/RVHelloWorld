@@ -25,7 +25,7 @@
     
     NSAlert *anAlert = [NSAlert new];
     anAlert.alertStyle = NSInformationalAlertStyle;
-    anAlert.messageText = @"Hello World";
+    anAlert.messageText = @"What would you like to say to me?";
     [anAlert addButtonWithTitle:@"Hello"];
     [anAlert addButtonWithTitle:@"Goodbye"];
     NSModalResponse response = anAlert.runModal;

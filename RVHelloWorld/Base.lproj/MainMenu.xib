@@ -668,14 +668,14 @@
         </menu>
         <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
-            <rect key="contentRect" x="335" y="390" width="480" height="360"/>
+            <rect key="contentRect" x="335" y="390" width="480" height="188"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
+                <rect key="frame" x="0.0" y="1" width="480" height="188"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fB6-5M-hob">
-                        <rect key="frame" x="162" y="269" width="156" height="32"/>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fB6-5M-hob">
+                        <rect key="frame" x="162" y="87" width="156" height="32"/>
                         <buttonCell key="cell" type="push" title="Start Conversation" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="z1z-VG-epy">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -684,8 +684,8 @@
                             <action selector="talkToMe:" target="Voe-Tx-rLC" id="0Tb-FA-d0O"/>
                         </connections>
                     </button>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E1e-qz-iCP">
-                        <rect key="frame" x="168" y="234" width="146" height="17"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="E1e-qz-iCP">
+                        <rect key="frame" x="219" y="57" width="42" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Label" id="qp4-MO-ERj">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -696,7 +696,14 @@
                         </connections>
                     </textField>
                 </subviews>
+                <constraints>
+                    <constraint firstAttribute="centerY" secondItem="fB6-5M-hob" secondAttribute="centerY" constant="10.5" id="6L0-aZ-KuR"/>
+                    <constraint firstItem="E1e-qz-iCP" firstAttribute="centerX" secondItem="fB6-5M-hob" secondAttribute="centerX" id="SqX-7G-DBz"/>
+                    <constraint firstItem="E1e-qz-iCP" firstAttribute="top" secondItem="fB6-5M-hob" secondAttribute="bottom" constant="20" id="dQz-Ye-hc6"/>
+                    <constraint firstAttribute="centerX" secondItem="fB6-5M-hob" secondAttribute="centerX" id="qdy-c4-n86"/>
+                </constraints>
             </view>
+            <point key="canvasLocation" x="311" y="293"/>
         </window>
     </objects>
 </document>
